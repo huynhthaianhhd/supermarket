@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/GuestMasterPage.Master" AutoEventWireup="true" CodeBehind="MemberMasterPage.master.cs" Inherits="_1685009.Member.MemberMasterPage" %>
+
+<%@ Register Src="~/WebUC/ProfileSidebar.ascx" TagPrefix="uc1" TagName="ProfileSidebar" %>
+
+<asp:Content ID="ContentBlockHead" ContentPlaceHolderID="Head" runat="server">
+    <link href="css/style.css" rel="stylesheet" />
+</asp:Content>
+
+<asp:Content ID="ContentBlockMain" ContentPlaceHolderID="MainContent" runat="server">
+    <!--
+    User Profile Sidebar by @keenthemes
+    A component of Metronic Theme - #1 Selling Bootstrap 3 Admin Theme in Themeforest: http://j.mp/metronictheme
+    Licensed under MIT
+    -->
+
+    <div class="container">
+        <div class="row profile">
+            <div class="col-md-3 col-sm-3">
+                <uc1:ProfileSidebar runat="server" id="ProfileSidebar" />
+            </div>
+            <div class="col-md-9 col-sm-9">
+                <div class="profile-content">
+                    <asp:ContentPlaceHolder ID="MemberContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+</asp:Content>

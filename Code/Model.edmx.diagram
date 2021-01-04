@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2866db17daaf4e51ab80822a4e557031" Name="Diagram1">
+        <EntityTypeShape EntityType="superMarketModel.Brand" Width="1.5" PointX="0.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="superMarketModel.Category" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="superMarketModel.ContactMessage" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="superMarketModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="superMarketModel.FK_Product_ToBrand" ManuallyRouted="false" />
+        <AssociationConnector Association="superMarketModel.FK_Category_ToCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="superMarketModel.FK_Product_ToCategory" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="superMarketModel.UserAddress" Width="1.5" PointX="5.375" PointY="3.75" />
+        <EntityTypeShape EntityType="superMarketModel.aspnet_Users" Width="1.5" PointX="3.125" PointY="5.625" />
+        <AssociationConnector Association="superMarketModel.FK_UserAddress_ToUser" />
+        <EntityTypeShape EntityType="superMarketModel.Review" Width="1.5" PointX="5.25" PointY="9.625" />
+        <AssociationConnector Association="superMarketModel.FK_Review_ToProduct" />
+        <EntityTypeShape EntityType="superMarketModel.Order" Width="1.5" PointX="8.375" PointY="5.75" />
+        <EntityTypeShape EntityType="superMarketModel.OrderDetail" Width="1.5" PointX="10.625" PointY="3.375" />
+        <EntityTypeShape EntityType="superMarketModel.OrderStatus" Width="1.5" PointX="6.125" PointY="7.25" />
+        <AssociationConnector Association="superMarketModel.FK_Order_ToUser" />
+        <AssociationConnector Association="superMarketModel.FK_Order_ToStatus" />
+        <AssociationConnector Association="superMarketModel.FK_OrderDetail_ToOrder" />
+        <AssociationConnector Association="superMarketModel.FK_OrderDetail_ToProduct" />
+        <EntityTypeShape EntityType="superMarketModel.aspnet_Roles" Width="1.5" PointX="1.125" PointY="10.125" />
+        <AssociationConnector Association="superMarketModel.aspnet_UsersInRoles" />
+        <EntityTypeShape EntityType="superMarketModel.aspnet_Applications" Width="1.5" PointX="0.5" PointY="6.875" />
+        <AssociationConnector Association="superMarketModel.FK__aspnet_Ro__Appli__59063A47" />
+        <AssociationConnector Association="superMarketModel.FK__aspnet_Us__Appli__2A4B4B5E" />
+        <EntityTypeShape EntityType="superMarketModel.aspnet_Membership" Width="1.5" PointX="8.375" PointY="9.75" />
+        <AssociationConnector Association="superMarketModel.FK__aspnet_Me__Appli__3A81B327" />
+        <AssociationConnector Association="superMarketModel.FK__aspnet_Me__UserI__3B75D760" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

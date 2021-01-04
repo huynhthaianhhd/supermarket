@@ -1,0 +1,74 @@
+/* Paging */
+.pagination {
+    margin: 75px 0px 0px 0px;
+}
+
+nav.numbering {
+    float: right;
+}
+
+.pagination > .btn {
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination > a:not([class]) {
+    display: none !important;
+}
+
+.pagination > a:hover {
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active {
+    color: #fff;
+    background-color: #ffc229;
+    border-color: #EDB62B;
+    box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    min-width: 100px;
+}
+
+.dropdown-menu > li > a {
+    padding: 0px 5px;
+}
+
+.dropdown-menu > li:hover {
+    background: silver;
+}
+
+.dropdown-menu > li:hover > a {
+    color: red;
+}
+
+/* Table */
+table th {
+    text-align: center;
+}
+
+table td.padding-fix {
+    padding: 0px !important;
+}
+
+.order-details {
+    max-width: 700px;
+    margin: auto !important;
+}
+
+.text-bold {
+    font-weight: bold !important;
+}
+
+.error {
+    color: red;
+}

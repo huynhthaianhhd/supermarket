@@ -1,0 +1,177 @@
+﻿a.btn.btn-default.search {
+    background: #fe9126;
+    padding: 11px 12px 11px;
+    float: right;
+    outline: none;
+    border: none;
+}
+
+a.btn.btn-default.search:hover {
+    background: #333;
+}
+
+.pagination {
+    margin: 75px 0px 0px 0px;
+}
+
+.pagination > .btn {
+    font-weight: bold;
+    color: #000;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination > a:not([class]) {
+    display: none !important;
+}
+
+.pagination > a:hover {
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active {
+    color: #fff;
+    background-color: #ffc229;
+    border-color: #EDB62B;
+    box-shadow: none;
+    -o-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+#LabelMessage {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.product_list_header {
+    margin-top: 10px;
+}
+
+#LinkButtonViewCart {
+    background: transparent;
+    border: none;
+}
+
+.cart_items .btn {
+    border: 1px solid gray;
+    margin: 0 !important;
+    padding: 4px 8px !important;
+}
+
+.cart_items i {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.cart_items .btn_update_quantity {
+    font-size: 12pt;
+}
+
+.cart_items .btn_remove_item {
+    font-size: 13pt;
+    padding: 3px 8px !important;
+}
+
+.cart_items .value input {
+    border: none;
+    background: transparent;
+    text-align: center;
+    width: 46px;
+    padding-left: 5px;
+}
+
+/* Navigation */
+.profile-usermenu li.active * {
+    background-color: #fe9126 !important;
+    color: white !important;
+}
+
+.profile-usermenu li:hover:not(.active) * {
+    background-color: #e6e6e6 !important;
+    color: black !important;
+}
+
+/* Dropdown menu User */
+#dropdown-menu-user button {
+    border: none !important;
+    background-color: #333;
+    color: white;
+}
+
+#dropdown-menu-user li {
+    display: block;
+}
+
+#dropdown-menu-user li a {
+    color: #333;
+}
+
+/* Register */
+#CreateUserWizardMember {
+    width: 100%;
+}
+
+/* Login */
+#LoginMember {
+    width: 100%;
+}
+
+/* Password Recovery */
+#PasswordRecoveryMember, #PasswordRecoveryMember table {
+    width: 100%;
+    text-align: center;
+}
+
+/* Sidebar menu User */
+.profile-usermenu a:hover, .profile-usermenu li:hover a {
+    color: #333;
+}
+
+.profile-userpic {
+    padding: 5px;
+}
+
+#LinkButtonUploadAvatar {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Change Password */
+#ChangePasswordMember {
+    width: 100%;
+}
+
+#ChangePasswordMember .form-group {
+    margin-bottom: 10px;
+}
+
+/* User Address */
+#FormViewUserAddress {
+    width: 100%;
+}
+
+.action {
+    margin-top: 20px;
+}
+
+/* Carousel */
+.carousel .product {
+    text-align: center;
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+.carousel .product span {
+    text-decoration: line-through;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+/* Table */
+table th {
+    text-align: center;
+}
